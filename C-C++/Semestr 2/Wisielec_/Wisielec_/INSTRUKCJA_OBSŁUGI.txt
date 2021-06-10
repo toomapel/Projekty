@@ -1,0 +1,17 @@
+Format każdej linii w plik.txt powinien być następujący:
+
+<kategoria> <haslo1> <haslo2> <haslo3> <haslon> ,
+
+Ilość haseł jest dowolna,muszą być tylko oddzielone spacjami i być
+w jednej linijce ze swoją kategorią.
+
+Na końcu każdej linijki(włącznie z ostatnią) 
+powinna być spacja i przecinek
+
+Jeśli chcemy wpisać np. hasło wieloczłonowe 
+to stosujemy następujący zapis z podkreśleniami
+przykład:
+
+Historia jurand_ze_spychowa bitwa_pod_grunwaldem ,
+
+Hasła muszą być w całości wpisywane wielkimi literami.

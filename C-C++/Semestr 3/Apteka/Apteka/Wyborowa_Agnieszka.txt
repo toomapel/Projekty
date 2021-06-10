@@ -1,0 +1,6 @@
+Oto lista lekow na katar:
+LEK
+Nazwa:Lek5
+Koszt:88 zl
+Lek wymaga recepty!
+

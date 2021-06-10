@@ -1,0 +1,8 @@
+01   :   00-10:05 a b c d 
+15:15-15 :05 cz gr7 xd   Baszczynski  
+09:02-10:05 cz    gr1 Kowalski Programowanie
+08:02-    10:05 cz gr1     Nowak C++ 
+08:02  -    10:   05 pn gr3     Baszczynski Java
+19:02-    20:05 sr gr6     Nowak Programowanie
+09:05-    10: 17 cz gr5     Nowak Matma
+

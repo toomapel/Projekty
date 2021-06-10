@@ -1,0 +1,7 @@
+n Octanisept 1 50 20 30
+r Apap 2 20 10 40
+n Marsjanki 3 33 16 32
+n Rutinoskorbnin 4 14 18 30
+r Lek4 5 70 60 80
+r Lek5 6 88 33 44
+n Lek6 7 50 50 55

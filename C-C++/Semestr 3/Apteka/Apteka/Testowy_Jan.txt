@@ -1,0 +1,16 @@
+Oto lista lekow na przeziebienie:
+LEK
+Nazwa:Octanisept
+Koszt:50 zl
+Lek dostepny od reki!
+
+LEK
+Nazwa:Marsjanki
+Koszt:33 zl
+Lek dostepny od reki!
+
+LEK
+Nazwa:Apap
+Koszt:20 zl
+Lek wymaga recepty!
+

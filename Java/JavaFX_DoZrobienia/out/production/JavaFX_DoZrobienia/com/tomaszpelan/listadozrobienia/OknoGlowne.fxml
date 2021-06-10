@@ -1,0 +1,68 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.Tooltip?>
+<BorderPane fx:id = "glowneOknoBorderPane" fx:controller="com.tomaszpelan.listadozrobienia.Controller"
+            xmlns:fx="http://javafx.com/fxml" >
+    <top>
+        <VBox>
+            <MenuBar>
+                <Menu text = "Plik">
+                    <items>
+                        <MenuItem text = "Dodaj nowe wydarzenie" onAction="#pokazOknoDialogoweNowejRzeczy"/>
+                        <SeparatorMenuItem/>
+                        <MenuItem text = "Wyjście" onAction="#handlerWyjscia"/>
+                    </items>
+                </Menu>
+            </MenuBar>
+            <ToolBar>
+                <HBox>
+                    <Button text="Nowe wydarzenie" onAction="#pokazOknoDialogoweNowejRzeczy"/>
+                    <ToggleButton fx:id="filterToggleButton" text = "Dzisiejsze wydarzenia" onAction="#handlerToggleButton">
+                        <tooltip>
+                            <Tooltip text="Pokaż tylko dzisiejsze wydarzenia"/>
+                        </tooltip>
+                    </ToggleButton>
+                </HBox>
+            </ToolBar>
+
+        </VBox>
+
+    </top>
+    <left>
+        <ListView fx:id = "listaRzeczyDoZrobieniaView" onKeyPressed="#handlerWcisnietoPrzycisk" >
+
+        </ListView>
+    </left>
+    <center>
+        <VBox style="-fx-background-color:white">
+            <TextArea fx:id="detale" VBox.vgrow="ALWAYS" wrapText="true"/>
+            <HBox>
+                <Label text = "Do: " style="-fx-background-color:white">
+                    <font>
+                        <Font name = "Times New Roman bold" size = "20" />
+                    </font>
+                </Label>
+                <Label fx:id = "podpisDeadLine" style="-fx-background-color:white">
+                    <font>
+                        <Font name = "Times New Roman bold" size = "20" />
+                    </font>
+                </Label>
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>

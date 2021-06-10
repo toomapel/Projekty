@@ -1,0 +1,19 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<DialogPane fx:controller="com.tomaszpelan.listadozrobienia.DialogController"
+            xmlns:fx="http://javafx.com/fxml" >
+    <headerText>
+        Wpisz szczegóły swojego wydarzenia
+    </headerText>
+    <content>
+        <GridPane vgap="10" hgap="10">
+            <Label fx:id = "krotkiOpis" text = "Krótki opis:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id = "krotkiOpisTextField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+            <Label fx:id = "detale" text = "Detale:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <TextArea fx:id = "detaleTextField" GridPane.rowIndex="1" GridPane.columnIndex="1"
+                      wrapText="true"/>
+            <Label fx:id = "data" text = "Data:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <DatePicker fx:id = "dataPicker" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+        </GridPane>
+    </content>
+</DialogPane>
